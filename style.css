@@ -1,0 +1,40 @@
+@font-face {
+    font-family: barlow;
+    src: url(./Barlow/Barlow-Black.ttf);
+}
+
+body{
+    height: 100vh;
+    max-height: 100%;
+    min-width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-image: url(./UM4fNsz.jpg);
+}
+
+button{
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+}
+
+button:hover{
+    background-color: grey;
+    color: black;
+    opacity: .9;
+    transition: .7s;
+    cursor: pointer;
+}
+
+h1{
+    font-family: barlow,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.winner{
+    font-size: 2em;
+}
