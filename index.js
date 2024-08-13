@@ -13,7 +13,7 @@ function rockPaperScissors(computerChoice,humanChoice) {
   }
 
   else{
-    return "YOU HAVE WON"
+    return `YOU HAVE WON BY ${computerChoice}`
   }
 
 }
